@@ -24,3 +24,39 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 32px;
+  
+}
+
+ul{
+  list-style-type: none;
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 52px;
+
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  text-align: center;
+  width: 200px;
+}
