@@ -1,7 +1,16 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+/* content primary axis : justify-content */
+/* items cross axis : align item/self */
+
 
 .logo {
   font-size: 48px;
@@ -14,6 +23,14 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+    
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 0; 
+  padding: 0;
+
+
 }
 
 a {
@@ -21,5 +38,5 @@ a {
   background: white;
   padding: 8px;
   /* this removes the line under the links */
-  text-decoration: none;
+  text-decoration: none;  
 }
